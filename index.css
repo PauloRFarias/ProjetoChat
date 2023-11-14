@@ -92,7 +92,8 @@ main {
     margin-top: 72px; 
     background-image: url(imagens/partorestudando2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
+    background-position: center top;
 }
 
 button {
