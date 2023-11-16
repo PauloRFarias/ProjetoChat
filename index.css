@@ -150,3 +150,9 @@ button {
     color: rgba(0, 0, 0, 0.74);
     font-size: 20px;
 }
+
+@media screen and (max-width:500px) {
+    header {
+        background-color: blue;
+    }
+}
