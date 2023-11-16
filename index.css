@@ -151,8 +151,57 @@ button {
     font-size: 20px;
 }
 
-@media screen and (max-width:500px) {
+@media (max-width: 500px) {
     header {
-        background-color: blue;
+        width: 100%;
+        display: block;
+        height: 65vh; 
+        position: static; 
+    }
+
+    .img {
+        text-align: center;
+        margin: 0;
+    }
+    
+    nav.navum {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0px;
+        margin: auto;         
+    }
+
+    a {
+        display: block;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.74);
+    } 
+
+    .navdois {  
+        width: 50px;
+        text-align: center;
+        padding: 10px 50px;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 255, 0.575);
+        border-radius: 30px;
+    } 
+
+    .navdois:hover {
+        background-color: rgba(0, 0, 255, 0.575);
+        border: 2px solid white;
+        padding: 10px 50px;
+        color: white;
+        transition: 1s;
+    }
+
+    .navum {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .fotoprincipal {
+        display: none;
     }
 }
