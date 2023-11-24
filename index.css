@@ -244,10 +244,12 @@ button {
     
     .ostres {
         display: block;
+        
     }
 
     .ostres  p {
         text-indent: 20px;
+        text-align: justify;
     }
 
     .um, .dois, .tres {
