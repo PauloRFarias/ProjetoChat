@@ -90,7 +90,7 @@ main {
 .fotoprincipal {
     width: 35vw;
     margin-top: 72px; 
-    background-image: url(imagens/partorestudando2.jpg);
+    background-image: url(../imagens/partorestudando2.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center top;
@@ -149,118 +149,4 @@ button {
     padding-top: 40px;
     color: rgba(0, 0, 0, 0.74);
     font-size: 20px;
-}
-
- @media (max-width: 500px) {
-    
-    header {
-        width: 100%;
-        display: block;
-        height: 600px; 
-        position: static; 
-    }
-
-    .img {
-        text-align: center;
-        margin: 0;
-    }
-    
-    nav.navum {
-        text-align: center;
-        width: 100%;
-        padding: 10px 0px;
-        margin: auto;         
-    }
-
-    a {
-        display: block;
-        margin: auto;
-        color: rgba(0, 0, 0, 0.74);
-        font-size: 20px;
-    }
-
-    .navum > a {
-        padding: 20px;
-
-    }
-
-    .navdois {  
-        width: 50px;
-        text-align: center;
-        padding: 10px 50px;
-        margin: auto;
-        margin-top: 65px;
-        border: 1px solid rgba(0, 0, 255, 0.575);
-        border-radius: 30px;
-    } 
-
-    .navdois:hover {
-        background-color: rgba(0, 0, 255, 0.575);
-        border: 2px solid white;
-        padding: 10px 50px;
-        color: white;
-        transition: 1s;
-    }
-
-    .navum {
-        text-align: center;
-        width: 100%;
-        padding: 10px;
-        margin: auto;
-    }
-
-    main {
-        width: 100%;
-        height: 600px;
-        display: block; 
-    }
-
-    .fotoprincipal {
-        display: none;
-    }
-
-    .mensagem {
-        margin: auto;
-        padding: 50px 10px;
-        font-size: 26px;
-    }
-
-    .mensagem > h1 {
-        text-align: center;
-    }
-    
-    br {
-        display: none;
-    }
-
-    .mensagem > p {
-        font-size: 16px; 
-        font-weight: bold;
-    }
-
-    button {
-        margin-top: 100px;
-    }
-    
-    .ostres {
-        display: block;
-        
-    }
-
-    .ostres  p {
-        text-indent: 20px;
-        text-align: justify;
-    }
-
-    .um, .dois, .tres {
-        padding: 130px 10px;
-        border-top: 2px solid white;
-        border-right: 0px;
-    }
-
-    .final {
-        text-align: center;
-        padding: 90px 10px;
-        font-size: 25px;
-    }
 }
