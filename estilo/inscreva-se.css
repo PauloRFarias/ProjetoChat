@@ -80,6 +80,7 @@ legend {
 }
 
 #submit:hover {
+    color: white;
     background-color: rgba(0, 0, 255, 0.575);
     transition: 0.9s;
 }
