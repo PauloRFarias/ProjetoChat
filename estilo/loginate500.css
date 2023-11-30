@@ -6,34 +6,28 @@
 
 /* #F3F3F3 */
 
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Wix Madefor Text', sans-serif;
+body {
+    font-family: 'Wix Madefor Text', sans-serif;;
 }
 
-.login {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #F3F3F3;
+    padding: 15px;
+    border-radius: 15px;
 }
 
-.nome {
-    background-color: bisque;
+fieldset {
+    border: 3px solid rgba(0, 0, 0, 0.74);
 }
 
-form {
+legend {
+    border: 1px solid rgba(0, 0, 0, 0.74);
+    padding: 10px;
     text-align: center;
-    width: 470px;
-    height: 50vh;
-    border: 1px solid black;
-    border-radius: 3px;
-    
-   
+    border-radius: 8px;
 }
 
-
-.final {
-    text-align: center;
-}
