@@ -5,31 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/logoprincesa58.png" type="image/x-icon">
     <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="logincelular.css">
 </head>
 <body>
     <div class="box">
-        <form action=""></form>
         <fieldset>
-            <legend>Login</legend>
-            <div>
-                <input type="text" name="nome" id="nome" required>
-                <label for="nome">Nome</label>
+            <legend><strong>Login</strong></legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="email" id="nome" class="inputUser" required>
+                <label for="email" class="labelImput">E-mail</label>
             </div>
             <br>
             <br>
+            <div class="inputBox">
+                <input type="password" name="senha" id="senha" class="inputUser" required>
+                <label for="senha" class="labelImput">Senha</label>
+            </div>
+            <br><br>
             <div>
-                <input type="password" name="senha" id="senha" required>
-                <label for="senha">Senha</label>
+                <input type="checkbox" name="esqueci" id="esqueci">
+                <label for="esqueci">Esqueci mina senha</label>
             </div>
             <br>
             <br>
+            <input type="submit" name="submit" id="submit">
+            <br><br>
             <div>
-                <button>afas</button>
+                <a href="index.html" style="text-decoration: none; color: rgba(0, 0, 255, 0.575); font-weight: bold;">Voltar</a>
             </div>
-
-
         </fieldset>
-
     </div>
 </body>
 </html>
