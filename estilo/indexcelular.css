@@ -1,60 +1,34 @@
 @media (max-width: 500px) {
-    
-    header {
-        width: 100%;
+    .headergrande {
+        display: none;
+    }
+
+    img {
         display: block;
-        height: 600px; 
-        position: static; 
+        margin: auto;
     }
-
-    .img {
-        text-align: center;
-        margin: 0;
-    }
-    
-    nav.navum {
-        text-align: center;
-        width: 100%;
-        padding: 10px 0px;
-        margin: auto;         
-    }
-
 
     a {
+        width: 50vw;
         display: block;
-        margin: auto;
-        color: rgba(0, 0, 0, 0.74);
         font-size: 20px;
-    }
-
-    .navum > a {
-        padding: 20px;
-
-    }
-
-    .navdois {  
-        width: 50px;
-        text-align: center;
-        padding: 10px 50px;
         margin: auto;
-        margin-top: 65px;
+        margin-bottom: 7px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.74);
+        border-radius: 10px;
+    }
+
+    .login {
+        color: rgba(0, 0, 225,0.575);
         border: 1px solid rgba(0, 0, 255, 0.575);
-        border-radius: 30px;
     } 
 
-    .navdois:hover {
+    .login:hover {
         background-color: rgba(0, 0, 255, 0.575);
-        border: 2px solid white;
-        padding: 10px 50px;
+        border: 1px solid white;
         color: white;
         transition: 1s;
-    }
-
-    .navum {
-        text-align: center;
-        width: 100%;
-        padding: 10px;
-        margin: auto;
     }
 
     main {

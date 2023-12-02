@@ -13,7 +13,11 @@
     font-family: 'Wix Madefor Text', sans-serif;
 }
 
-header {    
+.header > img > a {
+    display: none;
+}
+
+.headergrande {    
     display: flex;  
     width: 100%; 
     height: auto;
@@ -69,7 +73,7 @@ a:hover {
 
 main {
     width: 100%;
-    height: 900px;
+    height: 760px;
     background-color: #F3F3F3;
     display: flex;
 }
@@ -89,7 +93,6 @@ main {
 
 .fotoprincipal {
     width: 35vw;
-    margin-top: 72px; 
     background-image: url(../imagens/partorestudando2.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
