@@ -96,8 +96,11 @@ main {
     background-position: center top;
 }
 
-button {
-    margin-top: 30px;
+.botao {
+    margin-top: 60px;
+}
+
+.botao > a {
     background-color: black;
     color: white;
     font-size: 20px;

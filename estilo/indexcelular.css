@@ -86,7 +86,8 @@
         font-weight: bold;
     }
 
-    button {
+    .botao {
+        text-align: center;
         margin-top: 100px;
     }
     

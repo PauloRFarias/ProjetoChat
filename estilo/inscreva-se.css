@@ -7,7 +7,8 @@
 /* #F3F3F3 */
 
 body {
-    font-family: 'Wix Madefor Text', sans-serif;;
+    font-family: 'Wix Madefor Text', sans-serif;
+    background-image: linear-gradient(to left, #F3F3F3, rgba(0, 0, 255, 0.082));
 }
 
 .box {
