@@ -18,6 +18,7 @@ body {
     transform: translate(-50%, -50%);
     background-color: #F3F3F3;
     padding: 15px;
+    width: 400px;
 }
 
 fieldset {
