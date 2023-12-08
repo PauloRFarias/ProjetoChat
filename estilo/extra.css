@@ -9,7 +9,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Wix Madefor Text', sans-serif;
-    background-color: #F3F3F3;
 }
 
 div.principal {
@@ -32,4 +31,36 @@ div.principal > h1 {
 
 div.principal > p {
     margin-top: 20px;
+}
+
+.secundaria {  
+    text-align: center;
+}
+
+.inf-1 {
+    display: inline-grid;
+    width: 300px;
+    margin: 10px 50px 10px 50px;
+}
+
+.camila {
+    width: 80vw;
+    background-color: yellow;
+    display: flex;
+    
+
+}
+
+.imagemc {
+    width: 400px;
+    height: 400px;
+    
+    background-image: url(../imagens/fotocamila350.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.frasec {
+  
 }
