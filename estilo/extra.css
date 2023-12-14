@@ -16,6 +16,7 @@ div.principal {
     width: 800px;
     text-indent: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     text-align: justify;
     background-color: #F3F3F3;
@@ -43,24 +44,38 @@ div.principal > p {
     margin: 10px 50px 10px 50px;
 }
 
-.camila {
-    width: 80vw;
-    background-color: yellow;
+.camila, .sandra {
+    width: 1000px;
     display: flex;
-    
-
+    margin: auto;
+    margin-top: 40px;
+    background-color: #F3F3F3;
 }
 
-.imagemc {
-    width: 400px;
-    height: 400px;
-    
+.imagemc, .imagemsan {
+    width: 500px;
+    height: 500px;
     background-image: url(../imagens/fotocamila350.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+    
+.frasec, .frasesan {
+    width: 460px;
+    height: 460px;  
+    padding: 20px;
+}
 
-.frasec {
-  
+.imagemsan {
+    width: 500px;
+    height: 500px;
+    background-image: url(../imagens/fotosandra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.frasesan {
+    
 }
